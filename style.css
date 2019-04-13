@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  color: lightgray;
+  font-size: 28px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+#container {
+  max-width: 900px;
+  width: 80vw;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#scoreboard {
+  width: 100%;
+  height: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 48px;
+}
+#szubienica {
+  float: left;
+  text-align: center;
+  width: 50%;
+  min-height: 280px;
+}
+#letters {
+  float: right;
+  text-align: center;
+  width: 50%;
+  min-height: 280px;
+}
+.letter {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  border: 3px solid gray;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+.letter:hover {
+  background-color: lightgray;
+  color: white;
+  border: 3px solid white;
+}
+.reset {
+  color: green;
+  cursor: pointer;
+  font-size: 48px;
+}
+.reset:hover {
+  color: white;
+}
